@@ -1,16 +1,11 @@
 # sohbet_muhabbet
 
-A new Flutter project.
+Görüntülü Sohbet ve Canlı yayın özelliği ile yazılmış bir Flutter uygulaması
+Deneme yanılma ile devamke
 
-## Getting Started
+## Agora io Started
 
-This project is a starting point for a Flutter application.
+Agora io sayfasından çekilen test apisi sayesinde görüntülü sohbet yapılıyor
 
-A few resources to get you started if this is your first Flutter project:
+- [Agora io : sohbet ](https://console.agora.io)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

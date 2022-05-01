@@ -1,10 +1,6 @@
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 class ReklamController {
-  String _banner1 = "ca-app-pub-8572094845088375/6663827108";
-  String _bannerGoogle = "ca-app-pub-3940256099942544/6300978111";
-  String _gecisliGoogle = "ca-app-pub-3940256099942544/1033173712";
-  String _gecisli1 = "ca-app-pub-8572094845088375/6079156138";
 
   final BannerAd myBanner = BannerAd(
     adUnitId: "ca-app-pub-3940256099942544/6300978111",
@@ -13,9 +9,7 @@ class ReklamController {
     listener: BannerAdListener(
       // Called when an ad is successfully received.
       onAdLoaded: (Ad ad) => print('Ad loaded.'),
-      // Called when an ad request failed.
       onAdFailedToLoad: (Ad ad, LoadAdError error) {
-        // Dispose the ad here to free resources.
         ad.dispose();
         print('Ad failed to load: $error');
       },
